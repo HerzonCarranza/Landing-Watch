@@ -1,0 +1,56 @@
+/*Media Query para celulares gama alta*/
+@media only screen and (min-width: 680px){
+    html {
+        font-size: 14px;
+    }
+}
+
+/*Media Query para tabletas*/
+@media only screen and (min-width: 768px){
+    html {
+        font-size: 15px;
+    }
+    #contenedor-header {
+    flex: 0 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+    height: 50vh;
+
+}
+    #relojheader {
+    flex: 0 1 calc(50% - 1rem);
+    align-self: center;
+    max-width: 400px;
+    order: 1
+}
+
+#txtreloj {
+    flex: 0 1 calc(50% - 1rem);
+    align-self: flex-start;
+    color: white;
+    order: 2
+
+}
+
+#txtreloj h2 {
+    font-size: 2rem;
+    letter-spacing: 0
+}
+
+}
+
+/*Media Query para Laptop*/
+@media only screen and (min-width: 992px){
+    html {
+        font-size: 15px;
+    }
+}
+
+/*Media Query para Laptop*/
+@media only screen and (min-width: 1200px){
+    html {
+        font-size: 16px;
+    }
+}

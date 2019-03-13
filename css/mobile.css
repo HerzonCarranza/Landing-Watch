@@ -21,12 +21,19 @@ header {
 
 
 }
+.img-responsive{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
 
 .contenedor {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
+    flex-flow: row wrap;
+    height: 100%
 }
 
 nav {
@@ -43,6 +50,8 @@ nav {
     justify-content: space-between;
 
     align-items: center;
+
+    height: 70px;
 
 }
 
@@ -67,10 +76,10 @@ nav {
     font-size: 14px;
 }
 
-#menudesktop a.buy {
+a.buy {
     display: flex;
     width: 100px;
-    height: 30px;
+    height: 35px;
     justify-content: center;
     align-items: center;
 
@@ -84,6 +93,56 @@ nav {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7ed34', endColorstr='#ff6f00', GradientType=1);
     border-radius: 30px;
 
-    color: #2c2c2c;
+    color: #2c2c2c!important;
 
+    text-decoration: none;
+
+}
+
+body {
+        font-family: 'raleway';
+
+}
+
+h1,h2,h3.h4.h5,h6{
+        font-family: 'open_bold';
+}
+
+
+.bold{
+    font-family: 'open_bold';
+}
+
+#contenedor-header {
+    flex: 0 1 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items:flex-start;
+    height: 80vh;
+
+}
+
+#relojheader {
+    flex: 0 1 100%;
+    align-self: flex-start;
+    max-width: 250px;
+    order: 2
+}
+
+#txtreloj {
+    flex: 0 1 100%;
+    align-self: flex-start;
+    color: white;
+    padding-bottom: 50px;
+    line-height: 23px
+
+
+
+}
+
+#txtreloj h2 {
+    font-size: 2rem;
+    letter-spacing: 0;
+        line-height: 40px
 }
