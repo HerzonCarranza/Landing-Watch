@@ -27,6 +27,12 @@ header {
     margin: 0 auto;
 }
 
+.img-responsiveuno{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
 .contenedor {
     max-width: 1200px;
     padding: 0 15px;
@@ -146,3 +152,128 @@ h1,h2,h3.h4.h5,h6{
     letter-spacing: 0;
         line-height: 40px
 }
+
+
+.contenedor-features {
+    height: 100%;
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+
+#hloco {
+    font-size: 2.5rem;
+    flex-basis: 100%;
+    text-align: center;
+
+
+}
+
+#ploco {
+    text-align: center;
+    flex-basis: 100%;
+    padding: 0 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.boxfeatures {
+    margin: 1rem 0;
+    flex: 0 1 calc(100% - 1rem);
+
+}
+
+.serv-icon {
+    width: 50%;
+    max-height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.boxfeatures h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.boxfeatures p {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.full {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    padding: 3rem 0;
+    padding-bottom: 0rem
+}
+
+#product {
+    background: rgba(245,49,127,1);
+background: -moz-linear-gradient(left, rgba(245,49,127,1) 0%, rgba(255,124,110,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(245,49,127,1)), color-stop(100%, rgba(255,124,110,1)));
+background: -webkit-linear-gradient(left, rgba(245,49,127,1) 0%, rgba(255,124,110,1) 100%);
+background: -o-linear-gradient(left, rgba(245,49,127,1) 0%, rgba(255,124,110,1) 100%);
+background: -ms-linear-gradient(left, rgba(245,49,127,1) 0%, rgba(255,124,110,1) 100%);
+background: linear-gradient(to right, rgba(245,49,127,1) 0%, rgba(255,124,110,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5317f', endColorstr='#ff7c6e', GradientType=1 );
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+    -moz-clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+    -ms-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%)
+}
+
+#product h2 {
+     font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    flex-basis: 100%;
+    order: 2;
+}
+.imgproduct {
+    flex-basis: 100%;
+    order: 1;
+    padding-top: 12rem;
+    max-width: 500px
+}
+
+.txtProduct {
+    flex-basis: 100%;
+    order: 3;
+}
+
+.txtIcon {
+    color: white;
+    flex: 0 1 80%;
+}
+
+
+.descriptionProduct {
+    flex-direction: row wrap;
+    flex: 0 1 100%;
+    justify-content: space-around;
+    align-content: space-around;
+    display: flex;
+}
+
+.iconProduct {
+    flex: 0 1 15%;
+    max-width: 60px;
+    padding: 1rem
+
+}
+
+.separador {
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+
+
+
+
+

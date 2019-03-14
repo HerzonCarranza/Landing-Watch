@@ -1,56 +1,136 @@
 /*Media Query para celulares gama alta*/
-@media only screen and (min-width: 680px){
+@media only screen and (min-width: 680px) {
     html {
         font-size: 14px;
     }
 }
 
 /*Media Query para tabletas*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
     html {
         font-size: 15px;
     }
+
     #contenedor-header {
-    flex: 0 1 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items:center;
-    height: 50vh;
+        flex: 0 1 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 50vh;
 
-}
+    }
+
     #relojheader {
-    flex: 0 1 calc(50% - 1rem);
-    align-self: center;
-    max-width: 400px;
-    order: 1
-}
-
-#txtreloj {
-    flex: 0 1 calc(50% - 1rem);
-    align-self: flex-start;
-    color: white;
-    order: 2
-
-}
-
-#txtreloj h2 {
-    font-size: 2rem;
-    letter-spacing: 0
-}
-
-}
-
-/*Media Query para Laptop*/
-@media only screen and (min-width: 992px){
-    html {
-        font-size: 15px;
+        flex: 0 1 calc(50% - 1rem);
+        align-self: center;
+        max-width: 400px;
+        order: 1
     }
-}
 
-/*Media Query para Laptop*/
-@media only screen and (min-width: 1200px){
-    html {
-        font-size: 16px;
+    #txtreloj {
+        flex: 0 1 calc(50% - 1rem);
+        align-self: flex-start;
+        color: white;
+        order: 2
     }
-}
+
+    #txtreloj h2 {
+        font-size: 2rem;
+        letter-spacing: 0
+    }
+
+    .boxfeatures {
+        margin: 1rem 0;
+        flex: 0 1 calc(50% - 1rem);
+
+    }
+
+    .serv-icon {
+        width: 35%
+    }
+
+    #ploco {
+        text-align: center;
+        flex-basis: 100%;
+        padding: 0 12rem;
+        margin-bottom: 4rem;
+    }
+
+    .imgproduct {
+        flex: 0 1 calc(50% - 1rem);
+        width: 50%;
+        padding-top: 0
+    }
+
+    .txtProduct {
+        flex: 0 1 calc(50% - 1rem);
+    }
+
+    #product h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        color: white;
+        flex-basis: 100%;
+        order: 1;
+        padding-top: 40px
+    }
+
+    .imgproduct {
+        flex-basis: 50%;
+        order: 2;
+
+    }
+
+    .txtProduct {
+        flex-basis: 50%;
+        order: 3;
+    }
+
+    .contenedor-features {
+        height: 100%;
+        flex-basis: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin: 2rem 0;
+    }
+
+    .boxfeatures {
+        margin: 1rem 0;
+        flex: 0 1 calc(50% - 1rem)
+    }
+
+    .imgAbout {
+        flex-basis: 50%;
+        flex: 0 1 calc(50% - 1rem);
+        order: 2;
+        max-width: 400px
+    }
+
+    .cajaAbout {
+        flex-basis: 50%;
+        flex: 0 1 calc(50% - 1rem);
+        padding-top: 50px;
+        align-items: center;
+        order: 2;
+        margin-left: 30px
+    }
+
+    /*Media Query para Laptop*/
+    @media only screen and (min-width: 1024px) {
+        .contenedor-features {
+            height: 100%;
+            flex-basis: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+
+        .boxfeatures {
+            margin: 1rem 0;
+            flex: 0 1 calc(33% - 1rem)
+        }
+
+    }
