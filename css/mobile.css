@@ -106,7 +106,8 @@ a.buy {
 }
 
 body {
-        font-family: 'raleway';
+        font-family: 'openli';
+    font-size: 14px
 
 }
 
@@ -168,6 +169,15 @@ h1,h2,h3.h4.h5,h6{
     font-size: 2.5rem;
     flex-basis: 100%;
     text-align: center;
+    color: #707070;
+
+
+}
+#hlocobl {
+    font-size: 2.5rem;
+    flex-basis: 100%;
+    text-align: center;
+    color: white;
 
 
 }
@@ -175,8 +185,16 @@ h1,h2,h3.h4.h5,h6{
 #ploco {
     text-align: center;
     flex-basis: 100%;
-    padding: 0 1.5rem;
+
     margin-bottom: 4rem;
+    color: #707070;
+}
+#plocobl {
+    text-align: center;
+    flex-basis: 100%;
+    padding: 0 1.5rem;
+
+    color: white;
 }
 
 .boxfeatures {
@@ -277,3 +295,111 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5317f', end
 
 
 
+
+#products {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+        -webkit-clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+    -moz-clip-path: polygon(0 10%, 100% 0, 100% 80%, 0 100%);
+    -ms-clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+   background: rgba(130,54,245,1);
+background: -moz-linear-gradient(left, rgba(130,54,245,1) 0%, rgba(39,201,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(130,54,245,1)), color-stop(100%, rgba(39,201,230,1)));
+background: -webkit-linear-gradient(left, rgba(130,54,245,1) 0%, rgba(39,201,230,1) 100%);
+background: -o-linear-gradient(left, rgba(130,54,245,1) 0%, rgba(39,201,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(130,54,245,1) 0%, rgba(39,201,230,1) 100%);
+background: linear-gradient(to right, rgba(130,54,245,1) 0%, rgba(39,201,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8236f5', endColorstr='#27c9e6', GradientType=1 );
+}
+
+.cajaProduct {
+    flex-basis: 100%;
+    max-width: 300px;
+    justify-content: center;
+    margin: 0 auto
+}
+
+.titleProduct {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.precio {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.btnProduct {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+    justify-content: center;
+    padding-top: ;
+    border-radius: 30px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+/*ESTILOS DE CONTACTO*/
+
+.formIcon I {
+    font-size: 1.75rem;
+    color: #707070;
+}
+
+.box50 {
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: column;
+
+}
+
+#contacto {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+}
+
+.row {
+    display: flex;
+    flex-basis: 100%;
+    flex-flow: row wrap;
+    margin-bottom: 1rem;
+    justify-content: space-around;
+}
+
+.nombre {
+    display: flex;
+    flex-basis: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.campo {
+    display: flex;
+    flex-basis: 70%;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around
+}
+
+.formIcon {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: flex-end
+}
+
+.formInput {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
